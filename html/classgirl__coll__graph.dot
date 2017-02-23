@@ -1,0 +1,6 @@
+digraph "girl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{girl\n|+ name\l+ attract\l+ mb\l+ iq\l+ type\l+ happy\l|~ girl()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}
