@@ -1,0 +1,29 @@
+<map id="com.ppl_assignment.q1.main" name="com.ppl_assignment.q1.main">
+<area shape="rect" id="node2" href="$classcom_1_1ppl__assignment_1_1_c_s_vgenerator___girl.html#ad69857a85f9c96944f36b8ef5a9e6700" title="com.ppl_assignment.CSVgenerator\l_Girl.generate" alt="" coords="249,339,476,380"/>
+<area shape="rect" id="node3" href="$classcom_1_1ppl__assignment_1_1couples.html#a7985e050be92e1f53c27ab334a106c0b" title="com.ppl_assignment.couples.setting" alt="" coords="245,405,480,431"/>
+<area shape="rect" id="node16" href="$classcom_1_1ppl__assignment_1_1_c_s_vgenerator___couple.html#a3d7cb4274e8b852550237f6fcfb2c817" title="com.ppl_assignment.CSVgenerator\l_Couple.generate" alt="" coords="249,1103,476,1144"/>
+<area shape="rect" id="node4" href="$classcom_1_1ppl__assignment_1_1boy.html#a7ced38ebdbd3ad9bd6fccd1659eeb716" title="com.ppl_assignment.boy.get\lBname" alt="" coords="540,5,729,47"/>
+<area shape="rect" id="node5" href="$classcom_1_1ppl__assignment_1_1girl.html#ad3ee25d6df8596cad4d697b754b90773" title="com.ppl_assignment.girl.get\lG_name" alt="" coords="542,71,727,112"/>
+<area shape="rect" id="node6" href="$classcom_1_1ppl__assignment_1_1boy.html#a6186415f9861248f175a49db24bad4a7" title="com.ppl_assignment.boy.get\lAttr_level" alt="" coords="540,136,729,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1ppl__assignment_1_1girl.html#abc43521a2f3171bcef1d89db8b08b996" title="com.ppl_assignment.girl.get\lAttract_lvl" alt="" coords="542,201,727,243"/>
+<area shape="rect" id="node8" href="$classcom_1_1ppl__assignment_1_1boy.html#ad89959e95f184d1a6dcdc0154d9a24a1" title="com.ppl_assignment.boy.get\lBudget" alt="" coords="540,267,729,308"/>
+<area shape="rect" id="node9" href="$classcom_1_1ppl__assignment_1_1girl.html#aed3e9363eef015f48bc4997bdc7f4e8d" title="com.ppl_assignment.girl.get\lMaint_cost" alt="" coords="542,332,727,373"/>
+<area shape="rect" id="node10" href="$classcom_1_1ppl__assignment_1_1boy.html#a92eb3684af399418d88d70475b032560" title="com.ppl_assignment.boy.get\lIq_lvl" alt="" coords="540,397,729,439"/>
+<area shape="rect" id="node11" href="$classcom_1_1ppl__assignment_1_1girl.html#ad26ea46cfebf4401deea4f4865766c75" title="com.ppl_assignment.girl.getIq" alt="" coords="537,463,732,490"/>
+<area shape="rect" id="node12" href="$classcom_1_1ppl__assignment_1_1boy.html#a6eeec28ae0d8f65a6aff382538708d16" title="com.ppl_assignment.boy.get\lHappy_lvl" alt="" coords="540,515,729,556"/>
+<area shape="rect" id="node13" href="$classcom_1_1ppl__assignment_1_1girl.html#a01ef462ed4cbc1feb38560ef00f94b33" title="com.ppl_assignment.girl.get\lHappy_lvl" alt="" coords="542,580,727,621"/>
+<area shape="rect" id="node14" href="$classcom_1_1ppl__assignment_1_1boy.html#a38ebcd3031007ca5b79426be643241ad" title="com.ppl_assignment.boy.get\lC_type" alt="" coords="540,645,729,687"/>
+<area shape="rect" id="node15" href="$classcom_1_1ppl__assignment_1_1girl.html#af41e98c256c3cd4585459b90fa11d7c2" title="com.ppl_assignment.girl.get\lC_type" alt="" coords="542,711,727,752"/>
+<area shape="rect" id="node17" href="$classcom_1_1ppl__assignment_1_1couples.html#a19836b69e190588c999f7a5d83c529ce" title="com.ppl_assignment.couples.get\lB_name" alt="" coords="528,776,741,817"/>
+<area shape="rect" id="node18" href="$classcom_1_1ppl__assignment_1_1couples.html#a0093dbbf680ee631fe479ba24af12ce1" title="com.ppl_assignment.couples.get\lB_attr_level" alt="" coords="528,841,741,883"/>
+<area shape="rect" id="node19" href="$classcom_1_1ppl__assignment_1_1couples.html#abc0af928e2f568fed2e5b54ad9cabd71" title="com.ppl_assignment.couples.get\lB_budget" alt="" coords="528,907,741,948"/>
+<area shape="rect" id="node20" href="$classcom_1_1ppl__assignment_1_1couples.html#a7f0bf65c72fd6e5344b298bb641f7252" title="com.ppl_assignment.couples.get\lB_iq_lvl" alt="" coords="528,972,741,1013"/>
+<area shape="rect" id="node21" href="$classcom_1_1ppl__assignment_1_1couples.html#a4caa91774fa457df0e37053cd8fa3b22" title="com.ppl_assignment.couples.get\lBoy_c_type" alt="" coords="528,1037,741,1079"/>
+<area shape="rect" id="node22" href="$classcom_1_1ppl__assignment_1_1couples.html#a358e34bd2c19a182d9e9150472bf446d" title="com.ppl_assignment.couples.get\lB_happy_lvl" alt="" coords="528,1103,741,1144"/>
+<area shape="rect" id="node23" href="$classcom_1_1ppl__assignment_1_1couples.html#a4c62ad25a395c9641152fdfdd4e2300c" title="com.ppl_assignment.couples.get\lG_name" alt="" coords="528,1168,741,1209"/>
+<area shape="rect" id="node24" href="$classcom_1_1ppl__assignment_1_1couples.html#a1f8f89d0aca38a73ae8ecfaa43056878" title="com.ppl_assignment.couples.get\lG_attr_level" alt="" coords="528,1233,741,1275"/>
+<area shape="rect" id="node25" href="$classcom_1_1ppl__assignment_1_1couples.html#aaa84f088fbb5a3dc69b0a4860b62f954" title="com.ppl_assignment.couples.get\lGirl_maint" alt="" coords="528,1299,741,1340"/>
+<area shape="rect" id="node26" href="$classcom_1_1ppl__assignment_1_1couples.html#aa3e526dfc845f1bb42eb199b4354a8eb" title="com.ppl_assignment.couples.get\lG_iq_lvl" alt="" coords="528,1364,741,1405"/>
+<area shape="rect" id="node27" href="$classcom_1_1ppl__assignment_1_1couples.html#ae6738336bd860c4327788b0e636db6c2" title="com.ppl_assignment.couples.get\lGirl_c_type" alt="" coords="528,1429,741,1471"/>
+<area shape="rect" id="node28" href="$classcom_1_1ppl__assignment_1_1couples.html#af730f794c8858edc0195f830cdfb7a0c" title="com.ppl_assignment.couples.get\lG_happy_lvl" alt="" coords="528,1495,741,1536"/>
+</map>
