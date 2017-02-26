@@ -85,23 +85,23 @@ public class couples {
         double lux_price=0.0,lux_value=0.0;
         double util_price=0.0,util_value=0.0;
         if(budget>0) {
-            double arr[] = buy_ess(maint_cost,3);
+            double arr[] = essential_buy(maint_cost,3);
             ess_price=arr[0];ess_value=arr[1];
             budget -= ess_price;
             if(ess_price == 0){
                 b_budget += 1000;
-                arr = buy_ess(b_budget, 3);
+                arr = essential_buy(b_budget, 3);
                 ess_price=arr[0];ess_value=arr[1];
             }
             budget -= ess_price;
         }
         if(budget>0) {
-            double arr[] = buy_lux(budget,3);
+            double arr[] = luxury_buy(budget,3);
             lux_price=arr[0];lux_value=arr[1];
             budget -= lux_price;
         }
         if(budget>0) {
-            double arr[] = buy_uti(budget,3);
+            double arr[] = utility_buy(budget,3);
             util_price=arr[0];util_value=arr[1];
             budget -= util_price;
         }
@@ -116,22 +116,24 @@ public class couples {
         double lux_price=0.0,lux_value=0.0;
         double util_price=0.0,util_value=0.0;
         if(budget>0) {
-            double arr[] = buy_ess(budget,3);
-            ess_price=arr[0];ess_value=arr[1];
+            double arr[] = essential_buy(budget,3);
+            ess_price=arr[0];
+            ess_value=arr[1];
             if(ess_price == 0){
                 b_budget +=1000;
-                arr = buy_ess(b_budget , 3);
-                ess_price=arr[0];ess_value=arr[1];
+                arr = essential_buy(b_budget , 3);
+                ess_price=arr[0];
+                ess_value=arr[1];
             }
             budget -= ess_price;
         }
         if(budget>0) {
-            double arr[] = buy_lux(budget,3);
+            double arr[] = luxury_buy(budget,3);
             lux_price=arr[0];lux_value=arr[1];
             budget -= lux_price;
         }
         if(budget>0) {
-            double arr[] = buy_uti(budget,3);
+            double arr[] = utility_buy(budget,3);
             util_price=arr[0];util_value=arr[1];
             budget -= util_price;
         }
@@ -145,22 +147,22 @@ public class couples {
         double lux_price=0.0,lux_value=0.0;
         double util_price=0.0,util_value=0.0;
         if(budget>0) {
-            double arr[] = buy_ess(maint_cost,3);
+            double arr[] = essential_buy(maint_cost,3);
             ess_price=arr[0];ess_value=arr[1];
             if(ess_price == 0){
                 b_budget += 1000;
-                arr = buy_ess(b_budget, 3);
+                arr = essential_buy(b_budget, 3);
                 ess_price=arr[0];ess_value=arr[1];
             }
             budget -= ess_price;
         }
         if(budget>0) {
-            double arr[] = buy_lux(budget,3);
+            double arr[] = luxury_buy(budget,3);
             lux_price=arr[0];lux_value=arr[1];
             budget -= lux_price;
         }
         if(budget>0) {
-            double arr[] = buy_uti(budget,3);
+            double arr[] = utility_buy(budget,3);
             util_price=arr[0];util_value=arr[1];
             budget -= util_price;
         }
@@ -169,14 +171,19 @@ public class couples {
         return budget;
     }
 
-    public void girl_happy(double ap,double bp,double cp,double av,double bv,double cv){
+    public void girl_happy(double ess_price,double lux_price,double util_price,
+                           double ess_value,double lux_value,double util_value){
         switch((int)girl_c_type){
-            case 1: g_happy_lvl = Math.log(ap+2*bp+cp);
+            case 1: g_happy_lvl = Math.log(ess_price+2*lux_price+util_price);
                 break;
-            case 2: g_happy_lvl = ap+bp+cp+av+bv+cv;
+            case 2: g_happy_lvl = ess_price+lux_price+util_price+ess_value+lux_value+util_value;
                 break;
-            case 3: g_happy_lvl =(Math.exp(ap+bp+cp));
+            case 3: g_happy_lvl =(Math.exp(ess_price+lux_price+util_price));
         }
+        if(g_happy_lvl >= 500){
+            g_happy_lvl = 500;
+        }
+        //System.out.println(g_happy_lvl);
     }
     public void boy_happy(){
         switch((int)boy_c_type){
@@ -187,7 +194,7 @@ public class couples {
             case 3: b_happy_lvl = g_iq_lvl;
         }
     }
-    public double[] buy_ess(double budget,int max){
+    public double[] essential_buy(double budget,int max){
         double arr[] = {0, 0};
         int count = 0;
         for ( e_gifts e : e_giftsArrayList ) {
@@ -199,6 +206,7 @@ public class couples {
                 arr[0] += ess_price;
                 arr[1] += ess_value;
                 budget -= ess_price;
+                budget -= ess_price;
             } else break;
             if(count == max)
                 break;
@@ -207,18 +215,18 @@ public class couples {
         price_ess = arr[0];
         return arr;
     }
-    public double[] buy_lux(double budget,int max){
+    public double[] luxury_buy(double budget,int max){
         double arr[] = {0, 0};
         int count = 0;
         for ( l_gifts l : l_giftsArrayList ) {
             count++;
             num_lux++;
-            double lprice = l.getPrice();
-            double lvalue = l.getPrice();
-
-            if (budget - lprice >= 0) {
-                arr[0] += lprice;
-                arr[1] += lvalue;
+            double price = l.getPrice();
+            double value = l.getPrice();
+            if (budget - price >= 0) {
+                arr[0] += price;
+                arr[1] += value;
+                budget -= price;
             }
             else
                  break;
@@ -229,16 +237,17 @@ public class couples {
         price_lux = arr[0];
         return arr;
     }
-    public double[] buy_uti(double budget,int max) {
+    public double[] utility_buy(double budget,int max) {
         double arr[] = {0, 0};
         int count = 0;
         for (u_gifts u : u_giftsArrayList) {
             count++;
-            double uprice = u.getPrice();
-            double uvalue = u.getPrice();
-            if (budget - uprice >= 0) {
-                arr[0] += uprice;
-                arr[1] += uvalue;
+            double price = u.getPrice();
+            double value = u.getPrice();
+            if (budget - price >= 0) {
+                arr[0] += price;
+                arr[1] += value;
+                budget -= price;
             } else  break;
             if(count == max)
                 break;
@@ -253,8 +262,6 @@ public class couples {
     public double happiness_couple(){
         return (b_happy_lvl + g_happy_lvl);
     }
-
-
 
     public String getB_name() {
         return b_name;

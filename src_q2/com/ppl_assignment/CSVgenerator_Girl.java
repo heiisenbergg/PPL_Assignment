@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 
 public class CSVgenerator_Girl {
-    private String bname;                                 //name of boy
+    private String gname;                                 //name of boy
     private double attr_level;                            //level of attractiveness
     private double budget;                               //budget
     private double iq_lvl;                                //intelligence level
@@ -36,9 +36,9 @@ public class CSVgenerator_Girl {
 
         int i,randomNum_girls,min_girls=10,max_girls=50;
         randomNum_girls = min_girls + (int)(Math.random() * max_girls);
-        System.out.println("No. of boys :"+randomNum_girls);
+        System.out.println("No. of Girls :"+randomNum_girls);
         for(i=0;i<randomNum_girls;i++) {
-            bname = "Girl_"+(i+1);
+            gname = "Girl_"+(i+1);
             attr_level = 1 + (int)(Math.random() * 50);
             budget = 1000 + (int)(Math.random() * 4000);
             iq_lvl = 20 + (int)(Math.random() * 130);
@@ -59,7 +59,7 @@ public class CSVgenerator_Girl {
             sb.append(',');
             sb.append(happy_lvl);
             sb.append('\n');
-            girl b = new girl(bname,attr_level,budget,iq_lvl,c_type);
+            girl b = new girl(gname,attr_level,budget,iq_lvl,c_type);
             girlArrayList.add(b);
         }
 

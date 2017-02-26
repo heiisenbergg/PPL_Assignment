@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 public class q1 {
     public static void main(String[] args) throws FileNotFoundException {
-
         ArrayList<boy> boyArrayList = new ArrayList<boy>(60);
         ArrayList<girl> girlArrayList = new ArrayList<girl>(40);
         ArrayList<couples> couplesArrayList = new ArrayList<>(40);

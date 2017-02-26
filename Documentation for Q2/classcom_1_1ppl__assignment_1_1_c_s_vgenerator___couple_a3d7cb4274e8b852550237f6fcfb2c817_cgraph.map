@@ -1,0 +1,14 @@
+<map id="com.ppl_assignment.CSVgenerator_Couple.generate" name="com.ppl_assignment.CSVgenerator_Couple.generate">
+<area shape="rect" id="node2" href="$classcom_1_1ppl__assignment_1_1couples.html#a19836b69e190588c999f7a5d83c529ce" title="com.ppl_assignment.couples.get\lB_name" alt="" coords="280,5,493,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ppl__assignment_1_1couples.html#a0093dbbf680ee631fe479ba24af12ce1" title="com.ppl_assignment.couples.get\lB_attr_level" alt="" coords="280,71,493,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1ppl__assignment_1_1couples.html#abc0af928e2f568fed2e5b54ad9cabd71" title="com.ppl_assignment.couples.get\lB_budget" alt="" coords="280,136,493,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1ppl__assignment_1_1couples.html#a7f0bf65c72fd6e5344b298bb641f7252" title="com.ppl_assignment.couples.get\lB_iq_lvl" alt="" coords="280,201,493,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1ppl__assignment_1_1couples.html#a4f259fa921c80e3d5c7e7a731874a57d" title="com.ppl_assignment.couples.get\lBoy_c_type" alt="" coords="280,267,493,308"/>
+<area shape="rect" id="node7" href="$classcom_1_1ppl__assignment_1_1couples.html#a358e34bd2c19a182d9e9150472bf446d" title="com.ppl_assignment.couples.get\lB_happy_lvl" alt="" coords="280,332,493,373"/>
+<area shape="rect" id="node8" href="$classcom_1_1ppl__assignment_1_1couples.html#a4c62ad25a395c9641152fdfdd4e2300c" title="com.ppl_assignment.couples.get\lG_name" alt="" coords="280,397,493,439"/>
+<area shape="rect" id="node9" href="$classcom_1_1ppl__assignment_1_1couples.html#a1f8f89d0aca38a73ae8ecfaa43056878" title="com.ppl_assignment.couples.get\lG_attr_level" alt="" coords="280,463,493,504"/>
+<area shape="rect" id="node10" href="$classcom_1_1ppl__assignment_1_1couples.html#aaa84f088fbb5a3dc69b0a4860b62f954" title="com.ppl_assignment.couples.get\lGirl_maint" alt="" coords="280,528,493,569"/>
+<area shape="rect" id="node11" href="$classcom_1_1ppl__assignment_1_1couples.html#aa3e526dfc845f1bb42eb199b4354a8eb" title="com.ppl_assignment.couples.get\lG_iq_lvl" alt="" coords="280,593,493,635"/>
+<area shape="rect" id="node12" href="$classcom_1_1ppl__assignment_1_1couples.html#add318c9411e5a40b09fe7ed012e71ec9" title="com.ppl_assignment.couples.get\lGirl_c_type" alt="" coords="280,659,493,700"/>
+<area shape="rect" id="node13" href="$classcom_1_1ppl__assignment_1_1couples.html#af730f794c8858edc0195f830cdfb7a0c" title="com.ppl_assignment.couples.get\lG_happy_lvl" alt="" coords="280,724,493,765"/>
+</map>

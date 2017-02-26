@@ -26,12 +26,7 @@ public class boy {
         this.min_attract_req=min_attract;
         comm_or_not = false;
     }
-    public static void main(String[] args) throws FileNotFoundException {
 
-        System.out.println("Hello ");
-        CSVgenerator_Boy obj = new CSVgenerator_Boy();
-        obj.generate();
-    }
     public String getBname() {
         return bname;
     }
