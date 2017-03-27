@@ -1,8 +1,8 @@
 package com.ppl_assignment;
 public class e_gifts {
-    private double price;                                    //price of gift
-    private double value;                                    //value of gift
-    e_gifts(double tprice, double tvalue){
+    private double price;                                    //price
+    private double value;                                    //value
+        e_gifts(double tprice, double tvalue){
         this.price=tprice;
         this.value=tvalue;
     }
